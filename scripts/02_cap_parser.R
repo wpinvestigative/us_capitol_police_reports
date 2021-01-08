@@ -137,7 +137,7 @@ capitol <- capitol %>%
 
 charge_count <- count(capitol, charge, sort=T)
 
-
+# will come back to clean this up in the future
 capitol <- capitol %>% 
   mutate(charge=case_when(
     grepl("bench warrant", charge) ~ "bench warrant - misdemeanor",

@@ -26,15 +26,3 @@ for (i in 1:nrow(cap_links)) {
   print(i)
   Sys.sleep(.5)
 }
-
-
-
-#https://www.judiciary.senate.gov/
-
-#url <- "https://www.judiciary.senate.gov/download/distcol-phillips-senate-questionnaire-final&download=1"
-#download.file(url, "test.pdf")
-
-#saved <- read_html(url) %>% 
-
-#  html_attr("href")
-#main_column a
